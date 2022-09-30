@@ -2,23 +2,23 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '11447d4b9e36499a80c1bff902fa75b0',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: '于见怪不怪',
+  domain: 'blog.yjgbg.me',
+  author: '于见怪不怪',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
+  github: '于见怪不怪',
   linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -61,4 +61,5 @@ export default siteConfig({
   //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
   //   }
   // ]
+  utterancesGitHubRepo: 'yjgbg/blog_comments'
 })
